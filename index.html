@@ -1,0 +1,40 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<canvas id="c" width="500" height="500" style="border:1px solid #000000;"></canvas>
+		<script>
+			var c = document.querySelector("#c");
+			var ctx = c.getContext("2d");
+
+
+			
+			
+			
+			// ctx.strokeStyle ="#33CC33";
+
+			// ctx.fillStyle ="blue";
+			// // ctx.strokeRect(50, 50, 100, 100);
+
+			// // ctx.beginPath();
+			// // ctx.moveTo(75,75);
+			// // ctx.lineTo(125, 125);
+			// // ctx.lineTo(125,75);
+			// // ctx.lineTo(75,75);
+			// ctx.fill();
+			
+			ctx.font = "36pt impact"
+			ctx.fillStyle ="white";
+			ctx.strokeStyle = "black"
+			ctx.textAlign = "center";
+			ctx.fillText("CANVAS MEMES!", c.width/2, 50);
+
+			ctx.lineWidth = 3;
+			ctx.strokeText("CANVAS MEMES!", c.width/2, 50);
+			
+
+
+
+		</script>
+	</body>
+</html>
